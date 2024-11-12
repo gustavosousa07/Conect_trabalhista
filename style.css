@@ -146,11 +146,13 @@
   a{
     color: white;
     text-decoration: none;
+    transition: color 0.3s ease;
   }
 
   a:hover{
     text-decoration: underline;
     color: rgb(60, 122, 180);
+
   }
   /* Responsividade */
   @media (max-width: 768px) {
