@@ -1,4 +1,4 @@
-**Conect Trabalhista**, especializada em soluções para gestão de ponto, horas extras e cálculos salariais. A página é uma landing page simples, sem necessidade de login, apenas para apresentação da empresa e funcionalidades básicas para interação dos funcionários.
+**Petro Carga Brasil**, especializada em soluções para gestão de ponto, horas extras e cálculos salariais. A página é uma landing page simples, sem necessidade de login, apenas para apresentação da empresa e funcionalidades básicas para interação dos funcionários.
 
 ## 📋 Funcionalidades
 
