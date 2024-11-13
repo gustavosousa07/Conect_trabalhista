@@ -40,31 +40,31 @@
     
     /* Menu */
     .menu {
-        display: flex;
-        justify-content: center;
-        background-color: #252525;
-      }
-      
-      .menu ul {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 32px;
-        list-style-type: none;
-        padding: 1rem;
-      }
-      
-      .menu ul li a {
-        color: white;
-        font-weight: 600;
-        text-decoration: none;
-        font-size: 1rem;
-        transition: color 0.3s ease;
-      }
-      
-      .menu ul li a:hover {
-        color: rgb(60, 122, 180);
-      }
+    display: flex;
+    justify-content: center;
+    background-color: #252525;
+    }
+    
+    .menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    list-style-type: none;
+    padding: 1rem;
+    }
+    
+    .menu ul li a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    }
+    
+    .menu ul li a:hover {
+    color: rgb(60, 122, 180);
+    }
     
     /* Serviços */
     .services {
@@ -144,11 +144,6 @@
     
     /* Responsividade */
     @media (max-width: 768px) {
-        .menu ul {
-        flex-direction: row;
-        gap: 1rem;
-        }
-    
         header p {
         font-size: 1rem;
         padding: 0 1rem;
