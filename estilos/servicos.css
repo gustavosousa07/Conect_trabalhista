@@ -163,12 +163,12 @@ footer a:hover {
     }
 
     .menu {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
     .menu ul {
-        flex-direction: column;
+        flex-direction: row;
         gap: 16px;
     }
 
