@@ -14,3 +14,7 @@ function registrarPonto() {
     messageElement.textContent = "Seu salário atual é de R$ 3.000,00";
   }
   
+  function enviarMensagem(){
+    alert ("Mensagem enviada com sucesso");
+
+  }

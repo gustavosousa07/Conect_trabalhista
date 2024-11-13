@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petro Carga Brasil - Contato</title>
+  <link rel="shortcut icon" href="ico/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="estilos/contato.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <a href="index.html"><img src="img/logo.jpeg" alt="Logo da Conect Trabalhista" class="logo"></a>
+    <h1>Entre em Contato</h1>
+  </header>
+
+  <!-- Formulário de Contato -->
+  <section class="contact-section">
+    <h2>Fale Conosco</h2>
+    <form action="#" method="POST" class="contact-form">
+      <div class="form-group">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="subject">Assunto</label>
+        <input type="text" id="subject" name="subject" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Mensagem</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn" onclick="enviarMensagem()">Enviar Mensagem</button>
+    </form>
+  </section>
+  
+  <script src="js/script.js"></script>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2024 Petro Carga Brasil. Todos os direitos reservados. <br>
+       Para dúvidas ou suporte técnico, entre em contato conosco através do e-mail <a href="mailto:suporte@petrocargabrasil.com.br">suporte@petrocargabrasil.com.br</a> ou pelo telefone <a href="">(11) 1234-5678</a>. Nossa equipe está pronta para atender você!</p>
+    <small>Desenvolvido por <a href="https://github.com/gustavosousa07" target="_blank" rel="noreferrer noopener">Gustavo Sousa</a></small>
+  </footer>
+
+</body>
+</html>
