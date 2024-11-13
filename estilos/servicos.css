@@ -144,6 +144,11 @@
     
     /* Responsividade */
     @media (max-width: 768px) {
+
+        .menu {
+            gap: 32px;
+        }
+
         header p {
         font-size: 1rem;
         padding: 0 1rem;
