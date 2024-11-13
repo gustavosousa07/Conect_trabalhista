@@ -42,6 +42,7 @@
     .menu {
         display: flex;
         justify-content: center;
+        flex-direction: row;
         background-color: #252525;
       }
       
